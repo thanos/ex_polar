@@ -26,31 +26,31 @@ To learn more about the inner workings of Polars read the [WIP book](https://rit
 
 
 
-| Polars Functionality                              | Eager | Lazy (DataFrame) | Lazy (Series) |
-|---------------------------------------------------|-------|------------------|---------------|
-| Filters                                           | ✔     | ✔                | ✔             |
-| Shifts                                            | ✔     | ✔                | ✔             |
-| Joins                                             | ✔     | ✔                |               |
-| GroupBys + aggregations                           | ✔     | ✔                |               |
-| Comparisons                                       | ✔     | ✔                | ✔             |
-| Arithmetic                                        | ✔     |                  | ✔             |
-| Sorting                                           | ✔     | ✔                | ✔             |
-| Reversing                                         | ✔     | ✔                | ✔             |
-| Closure application (User Defined Functions)      | ✔     |                  | ✔             |
-| SIMD                                              | ✔     |                  | ✔             |
-| Pivots                                            | ✔     | ✗                |               |
-| Melts                                             | ✔     | ✗                |               |
-| Filling nulls + fill strategies                   | ✔     | ✗                | ✔             |
-| Aggregations                                      | ✔     | ✔                | ✔             |
-| Moving Window aggregates                          | ✔     | ✗                | ✗             |
-| Find unique values                                | ✔     |                  | ✗             |
-| Rust iterators                                    | ✔     |                  | ✔             |
-| IO (csv, json, parquet, Arrow IPC                 | ✔     | ✗                |               |
-| Query optimization: (predicate pushdown)          | ✗     | ✔                |               |
-| Query optimization: (projection pushdown)         | ✗     | ✔                |               |
-| Query optimization: (type coercion)               | ✗     | ✔                |               |
-| Query optimization: (simplify expressions)        | ✗     | ✔                |               |
-| Query optimization: (aggregate pushdown)          | ✗     | ✔                |               |
+## Polars Functionality still to do
+
+- [ ] Filters    
+- [ ] Shifts                       
+- [ ] Joins
+- [ ] GroupBys + aggregations  
+- [ ] Comparisons  
+- [ ] Arithmetic
+- [ ] Sorting 
+- [ ] Reversing             
+- [ ] Closure application (User Defined Functions) 
+- [ ] SIMD
+- [ ] Pivots         
+- [ ] Melts  
+- [ ] Filling nulls + fill strategies 
+- [ ] Aggregations       
+- [ ] Moving Window aggregates       
+- [ ] Find unique values   
+- [ ] Rust iterators  
+- [ ] IO (csv, json, parquet, Arrow IPC  
+- [ ] Query optimization: (predicate pushdown)
+- [ ] Query optimization: (projection pushdown) 
+- [ ] Query optimization: (type coercion)
+- [ ] Query optimization: (simplify expressions)  
+- [ ] Query optimization: (aggregate pushdown)   
 
 
 
